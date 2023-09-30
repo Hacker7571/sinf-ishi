@@ -1,0 +1,47 @@
+.box .box-section, .box {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  background: #F3E02B;
+}
+.box .box-section {
+  max-width: 1280px;
+  height: 330px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.box .box-section h1 {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 440px;
+}
+.box .box-section p {
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  max-width: 645px;
+}
+.box .box-section a {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 24px;
+  border-radius: 3px;
+  background: #190083;
+}/*# sourceMappingURL=style.css.map */
